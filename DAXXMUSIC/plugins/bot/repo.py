@@ -10,7 +10,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("chura lo", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+          InlineKeyboardButton("Aa jao na baby", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
           InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/Devil_world_Assistant_bot"),
@@ -30,7 +30,7 @@ async def start(_, msg):
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/faa1f3ad7116e33d9f402.jpg",
+        photo="https://graph.org/file/88b8c517eceb030d8fced.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
@@ -39,11 +39,11 @@ async def start(_, msg):
 # --------------
 
 
-@app.on_message(filters.command("repo", prefixes="#"))
+@app.on_message(filters.command("profile", prefixes="#"))
 @capture_err
 async def repo(_, message):
     async with httpx.AsyncClient() as client:
-        response = await client.get("https://api.github.com/repos/DAXXTEAM/DAXXMUSIC/contributors")
+        response = await client.get("kuch nahi milega madarchod")
     
     if response.status_code == 200:
         users = response.json()
@@ -53,8 +53,8 @@ async def repo(_, message):
             list_of_users += f"{count}. [{user['login']}]({user['html_url']})\n"
             count += 1
 
-        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/DAXXTEAM/DAXXMUSIC) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/HEROKUFREECC)
-| 𝖢𝖮𝖭𝖳𝖱𝖨𝖡𝖴𝖳𝖮𝖱𝖲 |
+        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://graph.org/file/bf693019ca54a3ad4691e.mp4) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/Devil_world_chatting_group)
+| DEViL WORLD |
 ----------------
 {list_of_users}"""
         await app.send_message(message.chat.id, text=text, disable_web_page_preview=True)
