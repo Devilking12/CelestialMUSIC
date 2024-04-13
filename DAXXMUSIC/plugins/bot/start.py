@@ -31,11 +31,11 @@ from strings import get_string
 NEXI_VID = [
 "https://graph.org/file/bf693019ca54a3ad4691e.mp4",
 "https://graph.org/file/86318df286507a91c955d.mp4",
-"https://graph.org/file/83ebf52e8bbf138620de7.mp4",
-"https://graph.org/file/82fd67aa56eb1b299e08d.mp4",
-"https://graph.org/file/318eac81e3d4667edcb77.mp4",
-"https://graph.org/file/7c1aa59649fbf3ab422da.mp4",
-"https://graph.org/file/2a7f857f31b32766ac6fc.mp4",
+"https://graph.org/file/fda055e9c5fdc2be9e078.mp4",
+"https://graph.org/file/e3130662be1c701390d31.mp4",
+"https://graph.org/file/3ccddf97530ee46ac9f2e.mp4",
+"https://graph.org/file/696fa6a5d7d54bd9d14d8.mp4",
+"https://graph.org/file/9404c7fe0cffff513726f.mp4",
 
 ]
 
