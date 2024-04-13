@@ -23,11 +23,11 @@ def goodnight_command_handler(client: Client, message: Message):
 # Function to get a random sticker
 def get_random_sticker():
     stickers = [
-        "CAACAgQAAx0Ce9_hCAACaEVlwn7HeZhgwyVfKHc3WUGC_447IAACLgwAAkQwKVPtub8VAR018x4E",
-        "CAACAgIAAx0Ce9_hCAACaEplwn7dvj7G0-a1v3wlbN281RMX2QACUgwAAligOUoi7DhLVTsNsh4E",
-        "CAACAgIAAx0Ce9_hCAACaFBlwn8AAZNB9mOUvz5oAyM7CT-5pjAAAtEKAALa7NhLvbTGyDLbe1IeBA",
-        "CAACAgUAAx0CcmOuMwACldVlwn9ZHHF2-S-CuMSYabwwtVGC3AACOAkAAoqR2VYDjyK6OOr_Px4E",
-        "CAACAgIAAx0Ce9_hCAACaFVlwn-fG58GKoEmmZpVovxEj4PodAACfwwAAqozQUrt2xSTf5Ac4h4E",
+        "CAACAgUAAxkBAAIoB2YaKVnKFofq1z1UT5rKmOFVfRXJAAIICwACfM6wVEDwWL1bR5_CHgQ",
+        "CAACAgUAAxkBAAIoC2YaKefYsJgpm-2aCnIctf5hyBmOAAJWCgACDqRRVymzrzFgaWZqHgQ",
+        "CAACAgUAAxkBAAIoEGYaKoDAjxlgECZXJnnYWlQG5QjBAAKyBwACIWLxVP1hH6P4jzDhHgQ",
+        "CAACAgUAAxkBAAIoD2YaKlXgZY6-rezFHSPw9vXc9FjrAAJ1CAACn07gV5zq8pvlYHScHgQ",
+        "CAACAgUAAxkBAAIoDmYaKlHx8aT5WlARCD_w_8tb9JSCAAKGCAAC9XcIVB_qgKaFvkPRHgQ",
     ]
     return random.choice(stickers)
 
