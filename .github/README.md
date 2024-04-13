@@ -15,7 +15,7 @@
 
 <p><img width="500" align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Devilking12&show_icons=true&locale=en&layout=compact" alt="Devilking12" /></p>
 
-[![Contributors](https://contrib.rocks/image?repo=Devilking12/CelestialMUSIC)](https://github.com/Devilking13/CelestialMUSIC/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=Devilking12/CelestialMUSIC)](https://github.com/Devilking13/CelestialMUSIC/graphs/Me)
 
 ### Contact :
 <a href="https://t.me/Devil_world_Assistant_bot"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
