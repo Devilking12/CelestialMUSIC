@@ -1,4 +1,5 @@
-msg.reply_text(f"Sticker successfully added to [pack](t.me/addstickers/{packname})" +
+                                    png_sticker=open('kangsticker.png', 'rb'), emojis=sticker_emoji)
+            msg.reply_text(f"Sticker successfully added to [pack](t.me/addstickers/{packname})" +
                             f"\nEmoji is: {sticker_emoji}", parse_mode=ParseMode.MARKDOWN)
         except OSError as e:
             msg.reply_text("I can only kang images m8.")
